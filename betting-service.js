@@ -161,7 +161,7 @@ function startFeed() {
 											dataBuf = new Buffer(data.length);
 											data.copy(dataBuf, 0, 0, data.length);
 										}
-										callback(null, 'one');
+										callback(error, 'one');
 										
 									},
 									function(arg1, callback) {
