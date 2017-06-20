@@ -1,5 +1,6 @@
-var waterfall = require('async-waterfall');
+//var waterfall = require('async-waterfall');
 var utf8 = require('utf8');
+var async = require('async');
 
 
 var net = require('net');
@@ -7,7 +8,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 //var Buffer = require('safe-buffer').Buffer
-//var fs = require("fs");
+var fs = require("fs");
 //var ss = require("socket.io-stream");
 
 io.set('heartbeat interval', 5000);
@@ -122,7 +123,7 @@ function startFeed() {
                                     eventsStr = eventsStr + ',' + eventsArr[i].id;
                                 }
 								
-								if(i==20){
+								if(i==30){
 									break;
 								}
                             }
@@ -148,7 +149,7 @@ function startFeed() {
                                     //console.log('Got an update..');
 									
 									
-									waterfall([
+									async.waterfall([
 									function(callback) {
 										console.log('running waterfall function 1...');
 										
