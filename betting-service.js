@@ -161,6 +161,7 @@ function startFeed() {
 											dataBuf = new Buffer(data.length);
 											data.copy(dataBuf, 0, 0, data.length);
 										}
+										
 										callback(null, 'one');
 										
 									},
@@ -206,7 +207,7 @@ function startFeed() {
 											callback(null, 'done');
 										}
 									], function (err, result) {
-												  console.log('running waterfall function comp...');
+										console.log('running waterfall function comp...'+err);
 										// result now equals 'done'
 									});
                                     
