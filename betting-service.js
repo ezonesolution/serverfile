@@ -1,4 +1,4 @@
-//var waterfall = require('async-waterfall');
+var waterfall = require('async-waterfall');
 var utf8 = require('utf8');
 
 
@@ -161,7 +161,7 @@ function startFeed() {
 											dataBuf = new Buffer(data.length);
 											data.copy(dataBuf, 0, 0, data.length);
 										}
-										callback(error, 'one');
+										callback(null, 'one');
 										
 									},
 									function(arg1, callback) {
