@@ -328,78 +328,78 @@
 	var debug_event = null;
 
 	function getBValues(id) {
-		console.log('b1_status '+b1_status[id]);
-		console.log('1x2b2_status '+b2_status[id+'1x2']);
-		console.log('1x2r2_status '+r2_status[id+'1x2']);
-		console.log('1x2b3o1_status '+b3o1_status[id]+'1x2');
-		console.log('1x2b3o2_status '+b3o2_status[id+'1x2']);
-		console.log('1x2b3o3_status '+b3o3_status[id+'1x2']);
-		console.log('1x2r3o1_status '+r3o1_status[id]+'1x2');
-		console.log('1x2r3o2_status '+r3o2_status[id+'1x2']);
-		console.log('1x2r3o3_status '+r3o3_status[id+'1x2']);
+		//console.log('b1_status '+b1_status[id]);
+		//console.log('1x2b2_status '+b2_status[id+'1x2']);
+		//console.log('1x2r2_status '+r2_status[id+'1x2']);
+		//console.log('1x2b3o1_status '+b3o1_status[id]+'1x2');
+		//console.log('1x2b3o2_status '+b3o2_status[id+'1x2']);
+		//console.log('1x2b3o3_status '+b3o3_status[id+'1x2']);
+		//console.log('1x2r3o1_status '+r3o1_status[id]+'1x2');
+		//console.log('1x2r3o2_status '+r3o2_status[id+'1x2']);
+		//console.log('1x2r3o3_status '+r3o3_status[id+'1x2']);
 
-		console.log('RES_1x2b2_status '+b2_status[id+'RES_1x2']);
-		console.log('RES_1x2r2_status '+r2_status[id+'RES_1x2']);
-		console.log('RES_1x2b3o1_status '+b3o1_status[id]+'RES_1x2');
-		console.log('RES_1x2b3o2_status '+b3o2_status[id+'RES_1x2']);
-		console.log('RES_1x2b3o3_status '+b3o3_status[id+'RES_1x2']);
-		console.log('RES_1x2r3o1_status '+r3o1_status[id]+'RES_1x2');
-		console.log('RES_1x2r3o2_status '+r3o2_status[id+'RES_1x2']);
-		console.log('RES_1x2r3o3_status '+r3o3_status[id+'RES_1x2']);
+		//console.log('RES_1x2b2_status '+b2_status[id+'RES_1x2']);
+		//console.log('RES_1x2r2_status '+r2_status[id+'RES_1x2']);
+		//console.log('RES_1x2b3o1_status '+b3o1_status[id]+'RES_1x2');
+		//console.log('RES_1x2b3o2_status '+b3o2_status[id+'RES_1x2']);
+		//console.log('RES_1x2b3o3_status '+b3o3_status[id+'RES_1x2']);
+		//console.log('RES_1x2r3o1_status '+r3o1_status[id]+'RES_1x2');
+		//console.log('RES_1x2r3o2_status '+r3o2_status[id+'RES_1x2']);
+		//console.log('RES_1x2r3o3_status '+r3o3_status[id+'RES_1x2']);
 
-		console.log('RES_1x2_Hb2_status '+b2_status[id+'RES_1x2_H']);
-		console.log('RES_1x2_Hr2_status '+r2_status[id+'RES_1x2_H']);
-		console.log('RES_1x2_Hb3o1_status '+b3o1_status[id]+'RES_1x2_H');
-		console.log('RES_1x2_Hb3o2_status '+b3o2_status[id+'RES_1x2_H']);
-		console.log('RES_1x2_Hb3o3_status '+b3o3_status[id+'RES_1x2_H']);
-		console.log('RES_1x2_Hr3o1_status '+r3o1_status[id]+'RES_1x2_H');
-		console.log('RES_1x2_Hr3o2_status '+r3o2_status[id+'RES_1x2_H']);
-		console.log('RES_1x2_Hr3o3_status '+r3o3_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hb2_status '+b2_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hr2_status '+r2_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hb3o1_status '+b3o1_status[id]+'RES_1x2_H');
+		//console.log('RES_1x2_Hb3o2_status '+b3o2_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hb3o3_status '+b3o3_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hr3o1_status '+r3o1_status[id]+'RES_1x2_H');
+		//console.log('RES_1x2_Hr3o2_status '+r3o2_status[id+'RES_1x2_H']);
+		//console.log('RES_1x2_Hr3o3_status '+r3o3_status[id+'RES_1x2_H']);
 	}
 
 	function RunDebug(id) {
 		if(b1_status[id] === 1) {
-			console.log('Event should be blocked: b1='+b1_status[id+'1x2']+', b2='+b2_status[id+'1x2']+", r2="+r2_status[id+'1x2']);
+			//console.log('Event should be blocked: b1='+b1_status[id+'1x2']+', b2='+b2_status[id+'1x2']+", r2="+r2_status[id+'1x2']);
 		}
 
 		if(b2_status[id+'1x2'] === 1 || r2_status[id+'1x2']=== 1) {
-			console.log('1x2 market should be blocked: b2='+b2_status[id+'1x2']+", r2="+r2_status[id+'1x2']);
+			//console.log('1x2 market should be blocked: b2='+b2_status[id+'1x2']+", r2="+r2_status[id+'1x2']);
 		}
 
 		/*if(b2_status[id+'1x2_H1'] === 1 || r2_status[id+'1x2_H1']=== 1) {
-		 console.log('1x2_H1 market should be blocked: b2='+b2_status[id+'1x2_H1']+", r2="+r2_status[id+'1x2_H1']);
+		 //console.log('1x2_H1 market should be blocked: b2='+b2_status[id+'1x2_H1']+", r2="+r2_status[id+'1x2_H1']);
 		 }*/
 
 		if(b3o1_status[id+'1x2'] === 1 || r3o1_status[id+'1x2']=== 1) {
-			console.log('1x2 odd1 should be blocked: b2='+b3o1_status[id+'1x2']+", r2="+r3o1_status[id+'1x2']);
+			//console.log('1x2 odd1 should be blocked: b2='+b3o1_status[id+'1x2']+", r2="+r3o1_status[id+'1x2']);
 		}
 
 		if(b3o2_status[id+'1x2'] === 1 || r3o2_status[id+'1x2']=== 1) {
-			console.log('1x2 oddx should be blocked: b2='+b3o2_status[id+'1x2']+", r2="+r3o2_status[id+'1x2']);
+			//console.log('1x2 oddx should be blocked: b2='+b3o2_status[id+'1x2']+", r2="+r3o2_status[id+'1x2']);
 		}
 
 		if(b3o3_status[id+'1x2'] === 1 || r3o3_status[id+'1x2']=== 1) {
-			console.log('1x2 odd2 should be blocked: b2='+b3o3_status[id+'1x2']+", r2="+r3o3_status[id+'1x2']);
+			//console.log('1x2 odd2 should be blocked: b2='+b3o3_status[id+'1x2']+", r2="+r3o3_status[id+'1x2']);
 		}
 
 		if(b2_status[id+'RES_1x2'] === 1 || r2_status[id+'RES_1x2']=== 1) {
-			console.log('RES_1x2 market should be blocked: b2='+b2_status[id+'RES_1x2']+", r2="+r2_status[id+'RES_1x2']);
+			//console.log('RES_1x2 market should be blocked: b2='+b2_status[id+'RES_1x2']+", r2="+r2_status[id+'RES_1x2']);
 		}
 
 		/*if(b2_status[id+'RES_1x2_H'] === 1 || r2_status[id+'RES_1x2_H']=== 1) {
-		 console.log('RES_1x2_H market should be blocked: b2='+b2_status[id+'RES_1x2_H']+", r2="+r2_status[id+'RES_1x2_H']);
+		 //console.log('RES_1x2_H market should be blocked: b2='+b2_status[id+'RES_1x2_H']+", r2="+r2_status[id+'RES_1x2_H']);
 		 }*/
 
 		if(b3o1_status[id+'RES_1x2'] === 1 || r3o1_status[id+'RES_1x2']=== 1) {
-			console.log('RES_1x2 odd1 should be blocked: b2='+b3o1_status[id+'RES_1x2']+", r2="+r3o1_status[id+'RES_1x2']);
+			//console.log('RES_1x2 odd1 should be blocked: b2='+b3o1_status[id+'RES_1x2']+", r2="+r3o1_status[id+'RES_1x2']);
 		}
 
 		if(b3o2_status[id+'RES_1x2'] === 1 || r3o2_status[id+'RES_1x2']=== 1) {
-			console.log('RES_1x2 oddx should be blocked: b2='+b3o2_status[id+'RES_1x2']+", r2="+r3o2_status[id+'RES_1x2']);
+			//console.log('RES_1x2 oddx should be blocked: b2='+b3o2_status[id+'RES_1x2']+", r2="+r3o2_status[id+'RES_1x2']);
 		}
 
 		if(b3o3_status[id+'RES_1x2'] === 1 || r3o3_status[id+'RES_1x2']=== 1) {
-			console.log('RES_1x2 odd2 should be blocked: b2='+b3o3_status[id+'RES_1x2']+", r2="+r3o3_status[id+'RES_1x2']);
+			//console.log('RES_1x2 odd2 should be blocked: b2='+b3o3_status[id+'RES_1x2']+", r2="+r3o3_status[id+'RES_1x2']);
 		}
 	}
 
@@ -452,7 +452,7 @@
 
 						update_list_async(msg);
 
-						console.log('Processed U JSON with dt ' + msg.dt);
+						//console.log('Processed U JSON with dt ' + msg.dt);
 
 						process_status = false;
 
@@ -472,7 +472,7 @@
 
 						create_list(msg);
 
-						console.log('Processed F JSON with dt ' + msg.dt);
+						//console.log('Processed F JSON with dt ' + msg.dt);
 
 						if(debug_event !== null) {
 							RunDebug(debug_id);
@@ -505,7 +505,7 @@
 					update_list(eventUpdateObj);
 
 				} else if(eventUpdateObj && eventUpdateObj.cmd && eventUpdateObj.cmd == "ERR"){
-					console.log("Full Error");
+					//console.log("Full Error");
 					idle_full();
 				}
 
@@ -839,7 +839,58 @@
 								ou_o95: "",
 
                                 ou_u95: "",
-
+			
+			
+								ouh_o05: "",
+								ouh_u05: "",
+								
+								ouh_o15: "",
+								ouh_u15: "",
+								
+								ouh_o25: "",
+								ouh_u25: "",
+								
+								ouh_o35: "",
+								ouh_u35: "",
+								
+								ouh_o45: "",
+								ouh_u45: "",
+								
+								
+								tsgt1y: "",
+								tsgt1n: "",
+								
+								tsgt2y: "",
+								tsgt2n: "",
+								
+								
+								
+								
+								
+								
+								dc_flag: "",
+								bts_flag: "",
+								btsh_flag: "",
+								
+								ou05_flag: "",
+								ou15_flag: "",
+								ou25_flag: "",
+								ou35_flag: "",
+								ou45_flag: "",
+								ou55_flag: "",
+								ou65_flag: "",
+								ou75_flag: "",
+								ou85_flag: "",
+								ou95_flag: "",
+								
+								ouh05_flag: "",
+								ouh15_flag: "",
+								ouh25_flag: "",
+								ouh35_flag: "",
+								ouh45_flag: "",
+								
+								tsgt1_flag: "",
+								tsgt2_flag: "",
                             };
 
 
@@ -1199,7 +1250,7 @@
 									if(len==0){
 										//console.log(row_id+' --------> '+len);
 										/*for (var i = 0; i < h_arr.length; i++) {
-										  console.log('Value Array [' + i + ']' +row_id+' is: ' + h_arr[i]);
+										  //console.log('Value Array [' + i + ']' +row_id+' is: ' + h_arr[i]);
 										}*/
 										var gff = gf + 1;
 										var gfff = gf + 2;
@@ -1294,7 +1345,7 @@
 									//over_p != '' &&
 									/*if( over_o != '' && over_n != '' ){
 										
-										console.log('OU FULL '+row_id+'->'+ over_p + ':'+ under_p + ' - ' + over_o + ':'+ under_o + ' - '+ over_n + ':'+ under_n +'**'+ gf);
+										//console.log('OU FULL '+row_id+'->'+ over_p + ':'+ under_p + ' - ' + over_o + ':'+ under_o + ' - '+ over_n + ':'+ under_n +'**'+ gf);
 									
 										if(over_o < 1.3){
 											data.to = gf + 1;
@@ -1368,7 +1419,7 @@
 									if(len==0){
 										//console.log(row_id+' --------> '+len);
 										/*for (var i = 0; i < h_arr.length; i++) {
-										  console.log('Value Array [' + i + ']' +row_id+' is: ' + h_arr[i]);
+										  //console.log('Value Array [' + i + ']' +row_id+' is: ' + h_arr[i]);
 										}*/
 										var ghh = gh + 1;
 										
@@ -1478,6 +1529,8 @@
 									if (k.n == "DC") {
 
 										var int = row_id+k.n;
+										
+										data.dc_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1527,6 +1580,8 @@
 									if (k.n == "BTS") {
 
 										var int = row_id+k.n;
+										
+										data.bts_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1567,6 +1622,8 @@
 									if (k.n == "BTS_H1") {
 
 										var int = row_id+k.n;
+										
+										data.btsh_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1608,6 +1665,8 @@
 									if (k.n == "OU" && k.h == "0.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou05_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1648,6 +1707,8 @@
 									if (k.n == "OU" && k.h == "1.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou15_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1688,6 +1749,8 @@
 									if (k.n == "OU" && k.h == "2.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou25_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1728,6 +1791,8 @@
 									if (k.n == "OU" && k.h == "3.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou35_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1768,6 +1833,8 @@
 									if (k.n == "OU" && k.h == "4.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou45_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1808,6 +1875,8 @@
 									if (k.n == "OU" && k.h == "5.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou55_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1848,6 +1917,8 @@
 									if (k.n == "OU" && k.h == "6.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou65_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1888,6 +1959,8 @@
 									if (k.n == "OU" && k.h == "7.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou75_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1928,6 +2001,8 @@
 									if (k.n == "OU" && k.h == "8.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou85_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -1968,6 +2043,8 @@
 									if (k.n == "OU" && k.h == "9.5") {
 
 										var int = row_id+k.n;
+										
+										data.ou95_flag = "1";
 
 										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
 										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
@@ -2006,6 +2083,305 @@
 									
 									
 									
+									
+									
+									
+									
+									//OU_H1
+									if (k.n == "OU_H1" && k.h == "0.5") {
+
+										var int = row_id+k.n;
+										
+										data.ouh05_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o05 = "";
+
+											data.ouh_u05 = "";
+
+											
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o05 = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.ouh_u05 = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+									
+									
+									if (k.n == "OU_H1" && k.h == "1.5") {
+
+										var int = row_id+k.n;
+										
+										data.ouh15_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o15 = "";
+
+											data.ouh_u15 = "";
+
+											
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o15 = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.ouh_u15 = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+																		
+									
+									if (k.n == "OU_H1" && k.h == "2.5") {
+
+										var int = row_id+k.n;
+										
+										data.ouh25_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o25 = "";
+
+											data.ouh_u25 = "";
+
+											
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o25 = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.ouh_u25 = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+									
+									
+									if (k.n == "OU_H1" && k.h == "3.5") {
+
+										var int = row_id+k.n;
+										
+										data.ouh35_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o35 = "";
+
+											data.ouh_u35 = "";
+
+											
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o35 = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.ouh_u35 = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+									
+									
+									if (k.n == "OU_H1" && k.h == "4.5") {
+
+										var int = row_id+k.n;
+										
+										data.ouh45_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o45 = "";
+
+											data.ouh_u45 = "";
+
+											
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.ouh_o45 = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.ouh_u45 = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+									
+									
+									
+									
+									if (k.n == "TSG_T1") {
+
+										var int = row_id+k.n;
+										
+										data.tsgt1_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.tsgt1y = "";
+
+											data.tsgt1n = "";
+
+
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.tsgt1y = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.tsgt1n = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
+									
+									
+									if (k.n == "TSG_T2") {
+
+										var int = row_id+k.n;
+										
+										data.tsgt2_flag = "1";
+
+										b2_status[int] = typeof k.b !== "undefined" ? k.b : undefined;
+										r2_status[int] = typeof k.r !== "undefined" ? k.r : undefined;
+
+										if(typeof k.o !== "undefined") {
+
+											if (typeof k.o[0] !== "undefined") {
+												b3o1_status[int] = k.o[0].hasOwnProperty('b') ? k.o[0].b : undefined;
+												r3o1_status[int] = k.o[0].hasOwnProperty('r')  ? k.o[0].r : undefined;
+											}
+
+											if (typeof k.o[1] !== "undefined") {
+												b3o2_status[int] = k.o[1].hasOwnProperty('b') ? k.o[1].b : undefined;
+												r3o2_status[int] = k.o[1].hasOwnProperty('r')  ? k.o[1].r : undefined;
+											}
+
+											
+										}
+
+										if(b1_status[row_id] === 1 || b2_status[int] === 1 || r2_status[int] === 1) {
+											//console.log("blocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.tsgt2y = "";
+
+											data.tsgt2n = "";
+
+
+										} else {
+											//console.log("unblocking market 1x2 from F "+row_id+' match b ='+b1_status[row_id]);
+											data.tsgt2y = ((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined") ? k.o[0].v : "";
+
+											data.tsgt2n = ((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined") ? k.o[1].v : "";
+
+										}
+
+                                    }
 									
 
 
@@ -2080,7 +2456,7 @@
 						/// NEW FULL ODDS UPD
 						/*var over_under_h = $('#over_under_h' + row_id).html();
 						var over_under_hn = $('#over_under_hn' + row_id).html();
-						console.log('over_under_h -> '+ over_under_h + '<->' + over_under_hn);
+						//console.log('over_under_h -> '+ over_under_h + '<->' + over_under_hn);
 						//over_under_o6063613
 						//over_under_u6063613*/
 						
@@ -2122,6 +2498,15 @@
 							$('#ind_game_feed' + row_id).css({"height": "44px"});
 
 							$('#league_name' + row_id).show();
+							
+							
+							// Second Half Hide Market
+							$('#btsh_' + row_id).hide();
+							$('#ouh05_' + row_id).hide();
+							$('#ouh15_' + row_id).hide();
+							$('#ouh25_' + row_id).hide();
+							$('#ouh35_' + row_id).hide();
+							$('#ouh45_' + row_id).hide();
 
 						}
 
@@ -2644,8 +3029,8 @@
 							
 							
 							
-							
-						var int = iventId+"OU";
+							//OU 0.5
+							var int = iventId+"OU";
 
 
 							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
@@ -3012,6 +3397,278 @@
 								}
 
 							}
+							
+							
+							
+							
+							
+							// OU_H1 0.5
+							var int = iventId+"OU";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+								$('#ouh_o05' + iventId).hide();
+
+								$('#ouh_u05' + iventId).hide();
+
+
+								$('#ouh_o05_L' + iventId).show();
+
+								$('#ouh_u05_L' + iventId).show();
+
+
+							} else  {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#ouh_o05' + iventId).hide();
+									$('#ouh_o05_L' + iventId).show();
+								} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#ouh_o05' + iventId).show();
+									$('#ouh_o05_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#ouh_u05' + iventId).hide();
+									$('#ouh_u05_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#ouh_u05' + iventId).show();
+									$('#ouh_u05_L' + iventId).hide();
+								}
+
+							}	
+							
+							
+							//1.5
+							var int = iventId+"OU";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+								$('#ouh_o15' + iventId).hide();
+
+								$('#ouh_u15' + iventId).hide();
+
+
+								$('#ouh_o15_L' + iventId).show();
+
+								$('#ouh_u15_L' + iventId).show();
+
+
+							} else  {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#ouh_o15' + iventId).hide();
+									$('#ouh_o15_L' + iventId).show();
+								} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#ouh_o15' + iventId).show();
+									$('#ouh_o15_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#ouh_u15' + iventId).hide();
+									$('#ouh_u15_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#ouh_u15' + iventId).show();
+									$('#ouh_u15_L' + iventId).hide();
+								}
+
+							}
+							
+							
+							//2.5
+							var int = iventId+"OU";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+								$('#ouh_o25' + iventId).hide();
+
+								$('#ouh_u25' + iventId).hide();
+
+
+								$('#ouh_o25_L' + iventId).show();
+
+								$('#ouh_u25_L' + iventId).show();
+
+
+							} else  {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#ouh_o25' + iventId).hide();
+									$('#ouh_o25_L' + iventId).show();
+								} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#ouh_o25' + iventId).show();
+									$('#ouh_o25_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#ouh_u25' + iventId).hide();
+									$('#ouh_u25_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#ouh_u25' + iventId).show();
+									$('#ouh_u25_L' + iventId).hide();
+								}
+
+							}
+							
+							
+							//3.5
+							var int = iventId+"OU";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+								$('#ouh_o35' + iventId).hide();
+
+								$('#ouh_u35' + iventId).hide();
+
+
+								$('#ouh_o35_L' + iventId).show();
+
+								$('#ouh_u35_L' + iventId).show();
+
+
+							} else  {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#ouh_o35' + iventId).hide();
+									$('#ouh_o35_L' + iventId).show();
+								} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#ouh_o35' + iventId).show();
+									$('#ouh_o35_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#ouh_u35' + iventId).hide();
+									$('#ouh_u35_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#ouh_u35' + iventId).show();
+									$('#ouh_u35_L' + iventId).hide();
+								}
+
+							}
+							
+							
+							//4.5
+							var int = iventId+"OU";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+								$('#ouh_o45' + iventId).hide();
+
+								$('#ouh_u45' + iventId).hide();
+
+
+								$('#ouh_o45_L' + iventId).show();
+
+								$('#ouh_u45_L' + iventId).show();
+
+
+							} else  {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#ouh_o45' + iventId).hide();
+									$('#ouh_o45_L' + iventId).show();
+								} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#ouh_o45' + iventId).show();
+									$('#ouh_o45_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#ouh_u45' + iventId).hide();
+									$('#ouh_u45_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#ouh_u45' + iventId).show();
+									$('#ouh_u45_L' + iventId).hide();
+								}
+
+							}
+							
+							
+							
+							
+							
+							
+							//TSG_T1
+							var int = iventId+"TSG_T1";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+							//alert("test");
+
+								$('#tsgt1_yes' + iventId).hide();
+
+								$('#tsgt1_no' + iventId).hide();
+
+								
+								$('#tsgt1_yes_L' + iventId).show();
+
+								$('#tsgt1_no_L' + iventId).show();
+
+								
+
+							} else {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#tsgt1_yes' + iventId).hide();
+									$('#tsgt1_yes_L' + iventId).show();
+								} else if (((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#tsgt1_yes' + iventId).show();
+									$('#tsgt1_yes_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#tsgt1_no' + iventId).hide();
+									$('#tsgt1_no_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#tsgt1_no' + iventId).show();
+									$('#tsgt1_no_L' + iventId).hide();
+								}
+
+							}
+							
+							
+							//TSG_T2
+							var int = iventId+"TSG_T2";
+
+
+							if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+							//alert("test");
+
+								$('#tsgt2_yes' + iventId).hide();
+
+								$('#tsgt2_no' + iventId).hide();
+
+								
+								$('#tsgt2_yes_L' + iventId).show();
+
+								$('#tsgt2_no_L' + iventId).show();
+
+								
+
+							} else {
+
+								if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+									$('#tsgt2_yes' + iventId).hide();
+									$('#tsgt2_yes_L' + iventId).show();
+								} else if (((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+									$('#tsgt2_yes' + iventId).show();
+									$('#tsgt2_yes_L' + iventId).hide();
+								}
+
+								if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+									$('#tsgt2_no' + iventId).hide();
+									$('#tsgt2_no_L' + iventId).show();
+								} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+									$('#tsgt2_no' + iventId).show();
+									$('#tsgt2_no_L' + iventId).hide();
+								}
+
+							}
+							
+							
 
 
 
@@ -3396,6 +4053,18 @@
 									$('#ind_game_feed' + iventId).css({"height": "44px"});
 
 									$('#league_name' + iventId).show();
+									
+									
+									
+									// Second Half Hide Market
+									$('#btsh_' + iventId).hide();
+									$('#ouh05_' + iventId).hide();
+									$('#ouh15_' + iventId).hide();
+									$('#ouh25_' + iventId).hide();
+									$('#ouh35_' + iventId).hide();
+									$('#ouh45_' + iventId).hide();
+									
+									
 
 								}
 
@@ -3520,6 +4189,15 @@
 									$('#ind_game_feed' + iventId).css({"height": "44px"});
 
 									$('#league_name' + iventId).show();
+									
+									
+									// Second Half Hide Market
+									$('#btsh_' + iventId).hide();
+									$('#ouh05_' + iventId).hide();
+									$('#ouh15_' + iventId).hide();
+									$('#ouh25_' + iventId).hide();
+									$('#ouh35_' + iventId).hide();
+									$('#ouh45_' + iventId).hide();
 
 								}
 
@@ -3580,7 +4258,7 @@
                                     }
 
 
-									console.log('Time UPD '+iventId+' -> '+tm);
+									//console.log('Time UPD '+iventId+' -> '+tm);
 
 
                                     $("#match_current_time" + iventId).html(tm+"'");
@@ -3720,7 +4398,7 @@
 
 							}
 
-							console.log('1x2 LOCK '+iventId);
+							//console.log('1x2 LOCK '+iventId);
 
 
                         } else {
@@ -3766,7 +4444,7 @@
 
 
 							//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
-							console.log('1x2 UNLOCK '+iventId);
+							//console.log('1x2 UNLOCK '+iventId);
 
                         }
 
@@ -4412,7 +5090,7 @@
 								
 						}
 						for (var i = 0; i < h_arr.length; i++) {
-						  console.log('Value Array [' + i + ']' +iventId+' is: ' + h_arr[i]);
+						  //console.log('Value Array [' + i + ']' +iventId+' is: ' + h_arr[i]);
 						}
 					}*/
 
@@ -4683,7 +5361,7 @@
 	
 						}
 	
-						console.log('DC LOCK '+iventId);
+						//console.log('DC LOCK '+iventId);
 	
 	
 					} else {
@@ -4729,7 +5407,7 @@
 	
 	
 						//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
-						console.log('DC UNLOCK '+iventId);
+						//console.log('DC UNLOCK '+iventId);
 	
 					}
 
@@ -4794,7 +5472,7 @@
 
 							}
 
-							console.log('BTS LOCK '+iventId);
+							//console.log('BTS LOCK '+iventId);
 
 
                         } else {
@@ -4834,7 +5512,7 @@
 
 
 							//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
-							console.log('BTS UNLOCK '+iventId);
+							//console.log('BTS UNLOCK '+iventId);
 
                         }
 
@@ -4901,7 +5579,7 @@
 
 							}
 
-							console.log('BTS_H1 LOCK '+iventId);
+							//console.log('BTS_H1 LOCK '+iventId);
 
 
                         } else {
@@ -4941,7 +5619,7 @@
 
 
 							//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
-							console.log('BTS_H1 UNLOCK '+iventId);
+							//console.log('BTS_H1 UNLOCK '+iventId);
 
                         }
 
@@ -5850,6 +6528,656 @@
 
                 }
 				
+				
+				
+				
+				
+				
+				
+				//OU_H1 0.5
+				else if (bt["n"] == "OU_H1" && bt["h"] == "0.5") {
+					
+					//console.log('OU_H1 ' +iventId+' -> ' + bt["h"]);
+					
+                    update_over_underH(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+
+					}
+
+
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+							$('#ouh_o05' + iventId).hide();
+
+                            $('#ouh_u05' + iventId).hide();
+
+
+
+                            $('#ouh_o05_L' + iventId).show();
+
+                            $('#ouh_u05_L' + iventId).show();
+
+							
+
+							if(parseFloat($("#50"+iventId).html())>0){
+
+								do_close('50'+iventId);
+
+							} if(parseFloat($("#51"+iventId).html())>0){
+
+								do_close('51'+iventId);
+
+							}
+
+
+
+                            //console_log(bt.n+' update received (Locking)', subscriptionMsg, bt);
+
+						} else  {
+
+							if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+								$('#ouh_o05' + iventId).hide();
+								$('#ouh_o05_L' + iventId).show();
+							} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+								$('#ouh_o05' + iventId).show();
+								$('#ouh_o05_L' + iventId).hide();
+							}
+
+							if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+								$('#ouh_u05' + iventId).hide();
+								$('#ouh_u05_L' + iventId).show();
+							} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+								$('#ouh_u05' + iventId).show();
+								$('#ouh_u05_L' + iventId).hide();
+							}
+
+
+                            /*$('#over_under_o' + iventId).show();
+
+                            $('#over_under_u' + iventId).show();
+
+
+
+                            $('#over_under_o_L' + iventId).hide();
+
+                            $('#over_under_u_L' + iventId).hide();*/
+
+
+
+                            //console_log(bt.n+' update received (Unlocking)', subscriptionMsg, bt);
+
+                        }
+
+
+                }
+				
+				
+				//OU_H1 1.5
+				else if (bt["n"] == "OU_H1" && bt["h"] == "1.5") {
+					
+					//console.log('OU_H1 ' +iventId+' -> ' + bt["h"]);
+					
+                    update_over_underH(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+
+					}
+
+
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+							$('#ouh_o15' + iventId).hide();
+
+                            $('#ouh_u15' + iventId).hide();
+
+
+
+                            $('#ouh_o15_L' + iventId).show();
+
+                            $('#ouh_u15_L' + iventId).show();
+
+							
+
+							if(parseFloat($("#52"+iventId).html())>0){
+
+								do_close('52'+iventId);
+
+							} if(parseFloat($("#53"+iventId).html())>0){
+
+								do_close('53'+iventId);
+
+							}
+
+
+
+                            //console_log(bt.n+' update received (Locking)', subscriptionMsg, bt);
+
+						} else  {
+
+							if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+								$('#ouh_o15' + iventId).hide();
+								$('#ouh_o15_L' + iventId).show();
+							} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+								$('#ouh_o15' + iventId).show();
+								$('#ouh_o15_L' + iventId).hide();
+							}
+
+							if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+								$('#ouh_u15' + iventId).hide();
+								$('#ouh_u15_L' + iventId).show();
+							} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+								$('#ouh_u15' + iventId).show();
+								$('#ouh_u15_L' + iventId).hide();
+							}
+
+
+                            
+
+                            //console_log(bt.n+' update received (Unlocking)', subscriptionMsg, bt);
+
+                        }
+
+
+                }
+				
+				
+				
+				//OU_H1 2.5
+				else if (bt["n"] == "OU_H1" && bt["h"] == "2.5") {
+					
+					//console.log('OU_H1 ' +iventId+' -> ' + bt["h"]);
+					
+                    update_over_underH(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+
+					}
+
+
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+							$('#ouh_o25' + iventId).hide();
+
+                            $('#ouh_u25' + iventId).hide();
+
+
+
+                            $('#ouh_o25_L' + iventId).show();
+
+                            $('#ouh_u25_L' + iventId).show();
+
+							
+
+							if(parseFloat($("#54"+iventId).html())>0){
+
+								do_close('54'+iventId);
+
+							} if(parseFloat($("#55"+iventId).html())>0){
+
+								do_close('55'+iventId);
+
+							}
+
+
+
+                            //console_log(bt.n+' update received (Locking)', subscriptionMsg, bt);
+
+						} else  {
+
+							if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+								$('#ouh_o25' + iventId).hide();
+								$('#ouh_o25_L' + iventId).show();
+							} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+								$('#ouh_o25' + iventId).show();
+								$('#ouh_o25_L' + iventId).hide();
+							}
+
+							if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+								$('#ouh_u25' + iventId).hide();
+								$('#ouh_u25_L' + iventId).show();
+							} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+								$('#ouh_u25' + iventId).show();
+								$('#ouh_u25_L' + iventId).hide();
+							}
+
+
+                            //console_log(bt.n+' update received (Unlocking)', subscriptionMsg, bt);
+
+                        }
+
+
+                }
+				
+				
+				
+				//OU_H1 3.5
+				else if (bt["n"] == "OU_H1" && bt["h"] == "3.5") {
+					
+					//console.log('OU_H1 ' +iventId+' -> ' + bt["h"]);
+					
+                    update_over_underH(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+
+					}
+
+
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+							$('#ouh_o35' + iventId).hide();
+
+                            $('#ouh_u35' + iventId).hide();
+
+
+
+                            $('#ouh_o35_L' + iventId).show();
+
+                            $('#ouh_u35_L' + iventId).show();
+
+							
+
+							if(parseFloat($("#56"+iventId).html())>0){
+
+								do_close('56'+iventId);
+
+							} if(parseFloat($("#57"+iventId).html())>0){
+
+								do_close('57'+iventId);
+
+							}
+
+
+
+                            //console_log(bt.n+' update received (Locking)', subscriptionMsg, bt);
+
+						} else  {
+
+							if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+								$('#ouh_o35' + iventId).hide();
+								$('#ouh_o35_L' + iventId).show();
+							} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+								$('#ouh_o35' + iventId).show();
+								$('#ouh_o35_L' + iventId).hide();
+							}
+
+							if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+								$('#ouh_u35' + iventId).hide();
+								$('#ouh_u35_L' + iventId).show();
+							} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+								$('#ouh_u35' + iventId).show();
+								$('#ouh_u35_L' + iventId).hide();
+							}
+
+
+                            //console_log(bt.n+' update received (Unlocking)', subscriptionMsg, bt);
+
+                        }
+
+
+                }
+				
+				
+				//OU_H1 4.5
+				else if (bt["n"] == "OU_H1" && bt["h"] == "4.5") {
+					
+					//console.log('OU_H1 ' +iventId+' -> ' + bt["h"]);
+					
+                    update_over_underH(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+
+					}
+
+
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+							$('#ouh_o45' + iventId).hide();
+
+                            $('#ouh_u45' + iventId).hide();
+
+
+
+                            $('#ouh_o45_L' + iventId).show();
+
+                            $('#ouh_u45_L' + iventId).show();
+
+							
+
+							if(parseFloat($("#58"+iventId).html())>0){
+
+								do_close('58'+iventId);
+
+							} if(parseFloat($("#59"+iventId).html())>0){
+
+								do_close('59'+iventId);
+
+							}
+
+
+
+                            //console_log(bt.n+' update received (Locking)', subscriptionMsg, bt);
+
+						} else  {
+
+							if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+								$('#ouh_o45' + iventId).hide();
+								$('#ouh_o45_L' + iventId).show();
+							} else if(((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+								$('#ouh_o45' + iventId).show();
+								$('#ouh_o45_L' + iventId).hide();
+							}
+
+							if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+								$('#ouh_u45' + iventId).hide();
+								$('#ouh_u45_L' + iventId).show();
+							} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+								$('#ouh_u45' + iventId).show();
+								$('#ouh_u45_L' + iventId).hide();
+							}
+
+
+                            //console_log(bt.n+' update received (Unlocking)', subscriptionMsg, bt);
+
+                        }
+
+
+                }
+				
+				
+				
+				
+				//TSG_T1
+				else if (bt["n"] == "TSG_T1") {
+
+                    update_tsgt1(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+					}
+
+
+
+
+
+                    
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+						$('#tsgt1_yes' + iventId).hide();
+
+						$('#tsgt1_no' + iventId).hide();
+
+
+						$('#tsgt1_yes_L' + iventId).show();
+
+						$('#tsgt1_no_L' + iventId).show();
+
+						
+						
+						if(parseFloat($("#60"+iventId).html())>0){
+
+							do_close('60'+iventId);
+
+						} if(parseFloat($("#61"+iventId).html())>0){
+
+							do_close('61'+iventId);
+
+						}
+
+						//console.log('BTS LOCK '+iventId);
+
+
+					} else {
+
+						if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+							$('#tsgt1_yes' + iventId).hide();
+							$('#tsgt1_yes_L' + iventId).show();
+						} else if (((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+							$('#tsgt1_yes' + iventId).show();
+							$('#tsgt1_yes_L' + iventId).hide();
+						}
+
+						if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+							$('#tsgt1_no' + iventId).hide();
+							$('#tsgt1_no_L' + iventId).show();
+						} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+							$('#tsgt1_no' + iventId).show();
+							$('#tsgt1_no_L' + iventId).hide();
+						}
+
+						
+
+					  
+
+
+
+						//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
+						//console.log('BTS UNLOCK '+iventId);
+
+					}
+
+                  
+
+                }
+				
+				
+				//TSG_T2
+				else if (bt["n"] == "TSG_T2") {
+
+                    update_tsgt1(subscriptionMsg, bt);
+
+					var int = iventId+bt["n"];
+
+					b2_status[int] = typeof bt.b !== "undefined" ? bt.b : b2_status[int];
+					r2_status[int] = typeof bt.r !== "undefined" ? bt.r : r2_status[int];
+
+					if(typeof bt.o !== "undefined") {
+
+						if (typeof bt.o[0] !== "undefined") {
+							b3o1_status[int] = bt.o[0].hasOwnProperty('b') ? bt.o[0].b : b3o1_status[int];
+							r3o1_status[int] = bt.o[0].hasOwnProperty('r') ? bt.o[0].r : r3o1_status[int];
+						}
+
+						if (typeof bt.o[1] !== "undefined") {
+							b3o2_status[int] = bt.o[1].hasOwnProperty('b') ? bt.o[1].b : b3o2_status[int];
+							r3o2_status[int] = bt.o[1].hasOwnProperty('r') ? bt.o[1].r : r3o2_status[int];
+						}
+
+						if (typeof bt.o[2] !== "undefined") {
+							b3o3_status[int] = bt.o[2].hasOwnProperty('b') ? bt.o[2].b : b3o3_status[int];
+							r3o3_status[int] = bt.o[2].hasOwnProperty('r') ? bt.o[2].r : r3o3_status[int];
+						}
+					}
+
+
+
+
+
+                    
+
+					if (b1_status[iventId] === 1 || (typeof b2_status[int] !== 'undefined' && b2_status[int] === 1) || (typeof r2_status[int] !== 'undefined' && r2_status[int] === 1)) {
+
+						$('#tsgt2_yes' + iventId).hide();
+
+						$('#tsgt2_no' + iventId).hide();
+
+
+						$('#tsgt2_yes_L' + iventId).show();
+
+						$('#tsgt2_no_L' + iventId).show();
+
+						
+						
+						if(parseFloat($("#62"+iventId).html())>0){
+
+							do_close('62'+iventId);
+
+						} if(parseFloat($("#63"+iventId).html())>0){
+
+							do_close('63'+iventId);
+
+						}
+
+						//console.log('BTS LOCK '+iventId);
+
+
+					} else {
+
+						if((typeof b3o1_status[int] !== 'undefined' && b3o1_status[int] === 1) || (typeof r3o1_status[int] !== 'undefined' && r3o1_status[int] === 1)) {
+							$('#tsgt2_yes' + iventId).hide();
+							$('#tsgt2_yes_L' + iventId).show();
+						} else if (((typeof b3o1_status[int] !== "undefined" && b3o1_status[int] === 0) || typeof b3o1_status[int] === "undefined") && ((typeof r3o1_status[int] !== "undefined" && r3o1_status[int] === 0) ||  typeof r3o1_status[int] === "undefined")) {
+							$('#tsgt2_yes' + iventId).show();
+							$('#tsgt2_yes_L' + iventId).hide();
+						}
+
+						if((typeof b3o2_status[int] !== 'undefined' && b3o2_status[int] === 1) || (typeof r3o2_status[int] !== 'undefined' && r3o2_status[int] === 1)) {
+							$('#tsgt2_no' + iventId).hide();
+							$('#tsgt2_no_L' + iventId).show();
+						} else if(((typeof b3o2_status[int] !== "undefined" && b3o2_status[int] === 0) || typeof b3o2_status[int] === "undefined") && ((typeof r3o2_status[int] !== "undefined" && r3o2_status[int] === 0) ||  typeof r3o2_status[int] === "undefined")) {
+							$('#tsgt2_no' + iventId).show();
+							$('#tsgt2_no_L' + iventId).hide();
+						}
+
+						
+
+					  
+
+
+
+						//console_log(bt.n + ' update received ('+(typeof bt.b !== 'undefined' ? 'Unlocking' : 'Adding')+')', subscriptionMsg, bt);
+						//console.log('BTS UNLOCK '+iventId);
+
+					}
+
+                  
+
+                }
 				
 				
 				
@@ -8333,14 +9661,985 @@
 		
 		
 		
+		/**
+
+         * GROUP: Update Over Under Half
+
+         */
+
+        function update_over_underH(subscriptionMsg, bt){
+
+            var iventId = subscriptionMsg["eId"];
+
+
+
+            //console_log(bt.n+' update received', subscriptionMsg);
+
+
+
+            if (typeof bt != "undefined" && typeof bt["o"] != "undefined" && bt.n != "undefined") {
+
+                //var betData = subscriptionMsg["obj"][0]["bt"][onextwokey]["o"];
+
+                var data = bt["o"];
+
+                if (typeof data != "undefined" || (data instanceof Array)) {
+
+
+
+                    //console.log("BT "+event_id+":");
+
+                    //console.log(bt);
+
+                    // OU
+
+
+                    if(bt.n == "OU_H1" && bt.h == "0.5") {
+
+
+
+                        if (typeof data[0] != "undefined"){
+
+                            if (data[0].n == "Over") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_o05' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_50' + iventId).html(data[0]["v"]);
+
+									$('#50' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o05' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_50' + iventId).html(data[0]["v"]);
+
+									$('#50' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o05' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o05' + iventId);
+
+                            } else  if (data[0].n == "Under") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_u05' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_51' + iventId).html(data[0]["v"]);
+
+									$('#51' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_u05' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_51' + iventId).html(data[0]["v"]);
+
+									$('#51' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_u05' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_u05' + iventId);
+
+                            }
+
+                        }
+
+                        if (typeof data[1] != "undefined"){
+
+                            if (data[1].n == "Over") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_o05' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_50' + iventId).html(data[1]["v"]);
+
+									$('#50' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o05' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_50' + iventId).html(data[1]["v"]);
+
+									$('#50' + iventId).html(data[1]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o05' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o05' + iventId);
+
+                            } else  if (data[1].n == "Under") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_u05' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_51' + iventId).html(data[1]["v"]);
+
+									$('#51' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o05' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_51' + iventId).html(data[1]["v"]);
+
+									$('#51' + iventId).html(data[1]["v"]);
+
+                                }
+
+                                $('#ouh_o05' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o05' + iventId);
+
+                            }
+
+                        }
+
+						upd_slip();
+
+                    }
+					
+					
+					
+					
+					if(bt.n == "OU_H1" && bt.h == "1.5") {
+
+
+
+                        if (typeof data[0] != "undefined"){
+
+                            if (data[0].n == "Over") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_o15' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_52' + iventId).html(data[0]["v"]);
+
+									$('#52' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o15' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_52' + iventId).html(data[0]["v"]);
+
+									$('#52' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o15' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o15' + iventId);
+
+                            } else  if (data[0].n == "Under") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_u15' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_53' + iventId).html(data[0]["v"]);
+
+									$('#53' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_u15' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_53' + iventId).html(data[0]["v"]);
+
+									$('#53' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_u15' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_u15' + iventId);
+
+                            }
+
+                        }
+
+                        if (typeof data[1] != "undefined"){
+
+                            if (data[1].n == "Over") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_o15' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_52' + iventId).html(data[1]["v"]);
+
+									$('#52' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o15' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_52' + iventId).html(data[1]["v"]);
+
+									$('#52' + iventId).html(data[1]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o15' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o15' + iventId);
+
+                            } else  if (data[1].n == "Under") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_u15' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_53' + iventId).html(data[1]["v"]);
+
+									$('#53' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o15' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_53' + iventId).html(data[1]["v"]);
+
+									$('#53' + iventId).html(data[1]["v"]);
+
+                                }
+
+                                $('#ouh_o15' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o15' + iventId);
+
+                            }
+
+                        }
+
+						upd_slip();
+
+                    }
+					
+					
+					
+					
+					
+					if(bt.n == "OU_H1" && bt.h == "2.5") {
+
+
+                        if (typeof data[0] != "undefined"){
+
+                            if (data[0].n == "Over") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_o25' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_54' + iventId).html(data[0]["v"]);
+
+									$('#54' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o25' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_54' + iventId).html(data[0]["v"]);
+
+									$('#54' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o25' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o25' + iventId);
+
+                            } else  if (data[0].n == "Under") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_u25' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_55' + iventId).html(data[0]["v"]);
+
+									$('#55' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_u25' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_55' + iventId).html(data[0]["v"]);
+
+									$('#55' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_u25' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_u25' + iventId);
+
+                            }
+
+                        }
+
+                        if (typeof data[1] != "undefined"){
+
+                            if (data[1].n == "Over") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_o25' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_54' + iventId).html(data[1]["v"]);
+
+									$('#54' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o25' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_54' + iventId).html(data[1]["v"]);
+
+									$('#54' + iventId).html(data[1]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o25' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o25' + iventId);
+
+                            } else  if (data[1].n == "Under") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_u25' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_55' + iventId).html(data[1]["v"]);
+
+									$('#55' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o25' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_55' + iventId).html(data[1]["v"]);
+
+									$('#55' + iventId).html(data[1]["v"]);
+
+                                }
+
+                                $('#ouh_o25' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o25' + iventId);
+
+                            }
+
+                        }
+
+						upd_slip();
+
+                    }
+					
+					
+					
+					if(bt.n == "OU_H1" && bt.h == "3.5") {
+
+
+
+                        if (typeof data[0] != "undefined"){
+
+                            if (data[0].n == "Over") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_o35' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_56' + iventId).html(data[0]["v"]);
+
+									$('#56' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o35' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_56' + iventId).html(data[0]["v"]);
+
+									$('#56' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o35' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o35' + iventId);
+
+                            } else  if (data[0].n == "Under") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_u35' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_57' + iventId).html(data[0]["v"]);
+
+									$('#57' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_u35' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_57' + iventId).html(data[0]["v"]);
+
+									$('#57' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_u35' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_u35' + iventId);
+
+                            }
+
+                        }
+
+                        if (typeof data[1] != "undefined"){
+
+                            if (data[1].n == "Over") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_o35' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_56' + iventId).html(data[1]["v"]);
+
+									$('#56' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o35' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_56' + iventId).html(data[1]["v"]);
+
+									$('#56' + iventId).html(data[1]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o35' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o35' + iventId);
+
+                            } else  if (data[1].n == "Under") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_u35' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_57' + iventId).html(data[1]["v"]);
+
+									$('#57' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o35' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_57' + iventId).html(data[1]["v"]);
+
+									$('#57' + iventId).html(data[1]["v"]);
+
+                                }
+
+                                $('#ouh_o35' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o35' + iventId);
+
+                            }
+
+                        }
+
+						upd_slip();
+
+                    }
+					
+					
+					if(bt.n == "OU_H1" && bt.h == "4.5") {
+
+
+
+                        if (typeof data[0] != "undefined"){
+
+                            if (data[0].n == "Over") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_o45' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_58' + iventId).html(data[0]["v"]);
+
+									$('#58' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o45' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_58' + iventId).html(data[0]["v"]);
+
+									$('#58' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o45' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o45' + iventId);
+
+                            } else  if (data[0].n == "Under") {
+
+                                if(data[0].b != undefined && data[0].b === 1) {
+
+                                    $('#ouh_u45' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_59' + iventId).html(data[0]["v"]);
+
+									$('#59' + iventId).html(data[0]["v"]);
+
+                                } else {
+
+                                    $('#ouh_u45' + iventId).html(data[0]["v"]);
+
+									
+
+									$('#span_59' + iventId).html(data[0]["v"]);
+
+									$('#59' + iventId).html(data[0]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_u45' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_u45' + iventId);
+
+                            }
+
+                        }
+
+                        if (typeof data[1] != "undefined"){
+
+                            if (data[1].n == "Over") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_o45' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_58' + iventId).html(data[1]["v"]);
+
+									$('#58' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o45' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_58' + iventId).html(data[1]["v"]);
+
+									$('#58' + iventId).html(data[1]["v"]);
+
+                                }
+
+
+
+                                $('#ouh_o45' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o45' + iventId);
+
+                            } else  if (data[1].n == "Under") {
+
+                                if(data[1].b != undefined && data[1].b === 1) {
+
+                                    $('#ouh_u45' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_59' + iventId).html(data[1]["v"]);
+
+									$('#59' + iventId).html(data[1]["v"]);
+
+                                } else {
+
+                                    $('#ouh_o45' + iventId).html(data[1]["v"]);
+
+									
+
+									$('#span_59' + iventId).html(data[1]["v"]);
+
+									$('#59' + iventId).html(data[1]["v"]);
+
+                                }
+
+                                $('#ouh_o45' + iventId).parent('a').addClass('borderClass');
+
+                                borderSetTime('#ouh_o45' + iventId);
+
+                            }
+
+                        }
+
+						upd_slip();
+
+                    }
+					
+
+					//OU_H1
+
+
+
+                    // ADDD
+					
+
+
+
+                }
+
+            }
+
+
+
+        }
+		
+		
+
+
+
+
 		
 		
 		
+		
+		
+		
+		/**
+
+         * GROUP: Update TSG_T1
+
+         */
+
+        function update_tsgt1(subscriptionMsg, bt){
+
+            var event_id = subscriptionMsg["eId"];
+
+
+
+            //console_log(bt.n+' update received', subscriptionMsg);
+
+            if (typeof bt != "undefined" && typeof bt["o"] != "undefined" && bt.n != "undefined") {
+
+                //var data = subscriptionMsg["obj"][0]["bt"][onextwokey]["o"];
+
+                var data = bt["o"];
+
+                if (typeof data != "undefined" || (data instanceof Array)) {
+
+                    //console.log("BT "+event_id+":");
+
+                    //console.log(bt);
+
+                    if(bt.n == "TSG_T1") {
+
+                        if (typeof data[0] != "undefined") {
+
+                            if (data[0].n == "Yes" && data[0]["v"] != "") {
+
+                                //alert(btObj[onextwokey]["b"]+'-'+data[0].n+" 0");
+
+                                $('#tsgt1_yes' + event_id).html(data[0]["v"]);
+
+								
+
+								$('#span_60' + event_id).html(data[0]["v"]);
+
+								$('#60' + event_id).html(data[0]["v"]);
+
+                                $('#tsgt1_yes' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt1_yes' + event_id);
+
+                            } else if (data[0].n == "No" && data[0]["v"] != "") {
+
+                                $('#tsgt1_no' + event_id).html(data[0]["v"]);
+
+								
+
+								$('#span_61' + event_id).html(data[0]["v"]);
+
+								$('#61' + event_id).html(data[0]["v"]);
+
+                                //alert(data[0].n+" 0");
+
+                                $('#tsgt1_no' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt1_no' + event_id);
+
+                            } 
+
+                        }
 
 
 
 
 
+                        if (typeof data[1] != "undefined") {
+
+                            if (data[1].n == "Yes" && data[1]["v"] != "") {
+
+                                //alert(data[1].n+" 1");
+
+                                $('#tsgt1_yes' + event_id).html(data[1]["v"]);
+
+								
+
+								$('#span_60' + event_id).html(data[1]["v"]);
+
+								$('#60' + event_id).html(data[1]["v"]);
+
+                                $('#tsgt1_yes' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt1_yes' + event_id);
+
+                            } else if (data[1].n == "No" && data[1]["v"] != "") {
+
+                                //alert(data[1].n+" 1");
+
+                                $('#tsgt1_no' + event_id).html(data[1]["v"]);
+
+								
+
+								$('#span_61' + event_id).html(data[1]["v"]);
+
+								$('#61' + event_id).html(data[1]["v"]);
+
+                                $('#tsgt1_no' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt1_no' + event_id);
+
+                            }
+
+                        }
+
+
+
+						upd_slip();
+
+
+
+                    }
+					
+					if(bt.n == "TSG_T2") {
+
+                        if (typeof data[0] != "undefined") {
+
+                            if (data[0].n == "Yes" && data[0]["v"] != "") {
+
+                                //alert(btObj[onextwokey]["b"]+'-'+data[0].n+" 0");
+
+                                $('#tsgt2_yes' + event_id).html(data[0]["v"]);
+
+								
+
+								$('#span_62' + event_id).html(data[0]["v"]);
+
+								$('#62' + event_id).html(data[0]["v"]);
+
+                                $('#tsgt2_yes' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt2_yes' + event_id);
+
+                            } else if (data[0].n == "No" && data[0]["v"] != "") {
+
+                                $('#tsgt2_no' + event_id).html(data[0]["v"]);
+
+								
+
+								$('#span_63' + event_id).html(data[0]["v"]);
+
+								$('#63' + event_id).html(data[0]["v"]);
+
+                                //alert(data[0].n+" 0");
+
+                                $('#tsgt2_no' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt2_no' + event_id);
+
+                            } 
+
+                        }
+
+
+
+
+
+                        if (typeof data[1] != "undefined") {
+
+                            if (data[1].n == "Yes" && data[1]["v"] != "") {
+
+                                //alert(data[1].n+" 1");
+
+                                $('#tsgt2_yes' + event_id).html(data[1]["v"]);
+
+								
+
+								$('#span_62' + event_id).html(data[1]["v"]);
+
+								$('#62' + event_id).html(data[1]["v"]);
+
+                                $('#tsgt2_yes' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt2_yes' + event_id);
+
+                            } else if (data[1].n == "No" && data[1]["v"] != "") {
+
+                                //alert(data[1].n+" 1");
+
+                                $('#tsgt2_no' + event_id).html(data[1]["v"]);
+
+								
+
+								$('#span_63' + event_id).html(data[1]["v"]);
+
+								$('#63' + event_id).html(data[1]["v"]);
+
+                                $('#tsgt2_no' + event_id).parent('a').addClass('borderClass');
+
+                                borderSetTime('#tsgt2_no' + event_id);
+
+                            }
+
+                        }
+
+
+
+						upd_slip();
+
+
+
+                    }
+
+
+
+
+                }
+
+            }
+
+        }
+		
+		
+		
+		
 
 
 
@@ -8930,14 +11229,21 @@
 				
 				
 				////////ADD +20
+				
 				row += '<div class="grid_3_iner3 new_sec_grd" id="toggle1_'+data.id+'" style="display:none;">';	
 				
 				row += '<div class="matchwrap"><div class="md_game_b"><div class="cent">';
 				
 				row += '<div class="n_col_lf">';
 				
-					
-				row += '<div class="col"><div class="m_title Light13 Bold White">Double Chance</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">1X</div><div class="sm_cl">X2</div><div class="sm_cl">12</div></div></div><div class="tl_rw Light12 White Bold">';
+				//DC
+				var mrk_flag = '';
+				if(data.dc_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}	
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Double Chance</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">1X</div><div class="sm_cl">X2</div><div class="sm_cl">12</div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				var id_23 = '23'+data.id;
 				
@@ -8971,10 +11277,10 @@
 				
 				//BTS
 				var mrk_flag = '';
-				if(data.btsy=='' || data.btsn==''){
-					mrk_flag = 'none';
-				}else{
+				if(data.bts_flag=='1'){
 					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
 				}
 				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Both Teams To Score</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">&nbsp;</div><div class="sm_cl">Yes</div><div class="sm_cl">No</div></div></div><div class="tl_rw Light12 White Bold">';
 				
@@ -9008,12 +11314,12 @@
 				
 				//BTS_H1
 				var mrk_flag = '';
-				if(data.btsyh=='' || data.btsnh==''){
-					mrk_flag = 'none';
-				}else{
+				if(data.btsh_flag=='1'){
 					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Both Teams To Score (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">&nbsp;</div><div class="sm_cl">Yes</div><div class="sm_cl">No</div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="btsh_'+ data.id +'"><div class="m_title Light13 Bold White">Both Teams To Score (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">&nbsp;</div><div class="sm_cl">Yes</div><div class="sm_cl">No</div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9048,6 +11354,81 @@
 				
 				
 				
+				//TSG_T1
+				var mrk_flag = '';
+				if(data.tsgt1_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Home Team Score a Goal</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">&nbsp;</div><div class="sm_cl">Yes</div><div class="sm_cl">No</div></div></div><div class="tl_rw Light12 White Bold">';
+				
+				
+				
+				row += '<div class="sm_cl">';
+								
+				row += '<div class="rw linght32 Align_cent "><a class="btn_min" href=""><span class="rt yelw_clr2">&nbsp;</span></a></div>';
+				
+				row += '</div>';
+				
+				var id_60 = '60'+data.id;
+				
+				row += '<div class="sm_cl">';
+				
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_60 +'"><span id="tsgt1_yes' + data.id + '" class="rt" onclick="javascript:do_select('+ id_60 +');">' + data.tsgt1y + '</span><span id="team_'+ id_60 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_60 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_60 +'" style="display:none;">Yes</span><span id="span_'+ id_60 +'" class="new" style="display:none;">' + data.tsgt1y + '</span><span class="rt" id="od_'+ id_60 +'" style="display:none;">' + data.tsgt1y + '</span><input type="hidden" id="is_selected_'+ id_60 +'" value="0" /><input type="hidden" name="event_id_'+ id_60 +'" id="event_id_'+ id_60 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_60 +'" id="market_id_'+ id_60 +'" value="'+ id_60 +'" /><input type="hidden" name="market_code_'+ id_60 +'" id="market_code_'+ id_60 +'" value="TSG_T1" /><input type="hidden" name="extra_'+ id_60 +'" id="extra_'+ id_60 +'" value="" /><span id="tsgt1_yes_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				
+				row += '</div>';
+				
+				var id_61 = '61'+data.id;
+				
+				row += '<div class="sm_cl">';
+				
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_61 +'"><span id="tsgt1_no' + data.id + '" class="rt" onclick="javascript:do_select('+ id_61 +');">' + data.tsgt1n + '</span><span id="team_'+ id_61 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_61 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_61 +'" style="display:none;">No</span><span id="span_'+ id_61 +'" class="new" style="display:none;">' + data.tsgt1n + '</span><span class="rt" id="od_'+ id_61 +'" style="display:none;">' + data.tsgt1n + '</span><input type="hidden" id="is_selected_'+ id_61 +'" value="0" /><input type="hidden" name="event_id_'+ id_61 +'" id="event_id_'+ id_61 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_61 +'" id="market_id_'+ id_61 +'" value="'+ id_61 +'" /><input type="hidden" name="market_code_'+ id_61 +'" id="market_code_'+ id_61 +'" value="TSG_T1" /><input type="hidden" name="extra_'+ id_61 +'" id="extra_'+ id_61 +'" value="" /><span id="tsgt1_no_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				
+				row += '</div>';
+				
+				row += '</div></div></div>';
+				
+				
+				
+				//TSG_T2
+				var mrk_flag = '';
+				if(data.tsgt2_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Away Team Score a Goal</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">&nbsp;</div><div class="sm_cl">Yes</div><div class="sm_cl">No</div></div></div><div class="tl_rw Light12 White Bold">';
+				
+				
+				
+				row += '<div class="sm_cl">';
+								
+				row += '<div class="rw linght32 Align_cent "><a class="btn_min" href=""><span class="rt yelw_clr2">&nbsp;</span></a></div>';
+				
+				row += '</div>';
+				
+				var id_62 = '62'+data.id;
+				
+				row += '<div class="sm_cl">';
+				
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_62 +'"><span id="tsgt2_yes' + data.id + '" class="rt" onclick="javascript:do_select('+ id_62 +');">' + data.tsgt2y + '</span><span id="team_'+ id_62 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_62 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_62 +'" style="display:none;">Yes</span><span id="span_'+ id_62 +'" class="new" style="display:none;">' + data.tsgt2y + '</span><span class="rt" id="od_'+ id_62 +'" style="display:none;">' + data.tsgt2y + '</span><input type="hidden" id="is_selected_'+ id_62 +'" value="0" /><input type="hidden" name="event_id_'+ id_62 +'" id="event_id_'+ id_62 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_62 +'" id="market_id_'+ id_62 +'" value="'+ id_62 +'" /><input type="hidden" name="market_code_'+ id_62 +'" id="market_code_'+ id_62 +'" value="TSG_T2" /><input type="hidden" name="extra_'+ id_62 +'" id="extra_'+ id_62 +'" value="" /><span id="tsgt2_yes_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				
+				row += '</div>';
+				
+				var id_63 = '63'+data.id;
+				
+				row += '<div class="sm_cl">';
+				
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_63 +'"><span id="tsgt2_no' + data.id + '" class="rt" onclick="javascript:do_select('+ id_63 +');">' + data.tsgt2n + '</span><span id="team_'+ id_63 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_63 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_63 +'" style="display:none;">No</span><span id="span_'+ id_63 +'" class="new" style="display:none;">' + data.tsgt2n + '</span><span class="rt" id="od_'+ id_63 +'" style="display:none;">' + data.tsgt2n + '</span><input type="hidden" id="is_selected_'+ id_63 +'" value="0" /><input type="hidden" name="event_id_'+ id_63 +'" id="event_id_'+ id_63 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_63 +'" id="market_id_'+ id_63 +'" value="'+ id_63 +'" /><input type="hidden" name="market_code_'+ id_63 +'" id="market_code_'+ id_63 +'" value="TSG_T2" /><input type="hidden" name="extra_'+ id_63 +'" id="extra_'+ id_63 +'" value="" /><span id="tsgt2_no_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				
+				row += '</div>';
+				
+				row += '</div></div></div>';
+				
+				
+				
+				
 				
 				
 				
@@ -9065,13 +11446,13 @@
 				
 				
 				//OU 0.5
-				var ou_flag = '';
-				if(data.ou_o05=='' || data.ou_u05==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou05_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9102,13 +11483,13 @@
 				
 				
 				//OU 1.5
-				var ou_flag = '';
-				if(data.ou_o15=='' || data.ou_u15==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou15_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9140,13 +11521,13 @@
 				
 				
 				//OU 2.5
-				var ou_flag = '';
-				if(data.ou_o25=='' || data.ou_u25==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou25_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9178,13 +11559,13 @@
 				
 				
 				//OU 3.5
-				var ou_flag = '';
-				if(data.ou_o35=='' || data.ou_u35==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou35_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9216,13 +11597,13 @@
 				
 				
 				//OU 4.5
-				var ou_flag = '';
-				if(data.ou_o45=='' || data.ou_u45==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou45_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9254,13 +11635,13 @@
 				
 				
 				//OU 5.5
-				var ou_flag = '';
-				if(data.ou_o55=='' || data.ou_u55==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou55_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9292,13 +11673,13 @@
 				
 				
 				//OU 6.5
-				var ou_flag = '';
-				if(data.ou_o65=='' || data.ou_u65==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou65_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9329,13 +11710,13 @@
 				
 				
 				//OU 7.5
-				var ou_flag = '';
-				if(data.ou_o75=='' || data.ou_u75==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou75_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9366,13 +11747,13 @@
 				
 				
 				//OU 8.5
-				var ou_flag = '';
-				if(data.ou_o85=='' || data.ou_u85==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou85_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9403,13 +11784,13 @@
 				
 				
 				//OU 9.5
-				var ou_flag = '';
-				if(data.ou_o95=='' || data.ou_u95==''){
-					ou_flag = 'none';
+				var mrk_flag = '';
+				if(data.ou95_flag=='1'){
+					mrk_flag = 'block';
 				}else{
-					ou_flag = 'block';
+					mrk_flag = 'none';
 				}
-				row += '<div class="col" style="display:'+ ou_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				row += '<div class="col" style="display:'+ mrk_flag +'"><div class="m_title Light13 Bold White">Over/Under</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9439,10 +11820,16 @@
 				
 				
 				
-				
+				/////////////////////////////////////////
 				
 				//OU_H1 0.5
-				row += '<div class="col"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				var mrk_flag = '';
+				if(data.ouh05_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="ouh05_'+ data.id +'"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9452,19 +11839,19 @@
 				
 				row += '</div>';
 				
-				var id_30 = '30'+data.id;
+				var id_50 = '50'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_30 +'"><span id="ou_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_30 +');">' + data.ou_o05 + '</span><span id="team_'+ id_30 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_30 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_30 +'" style="display:none;">O</span><span id="span_'+ id_30 +'" class="new" style="display:none;">' + data.ou_o05 + '</span><span class="rt" id="od_'+ id_30 +'" style="display:none;">' + data.ou_o05 + '</span><input type="hidden" id="is_selected_'+ id_30 +'" value="0" /><input type="hidden" name="event_id_'+ id_30 +'" id="event_id_'+ id_30 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_30 +'" id="market_id_'+ id_30 +'" value="'+ id_30 +'" /><input type="hidden" name="market_code_'+ id_30 +'" id="market_code_'+ id_30 +'" value="OU" /><input type="hidden" name="extra_'+ id_30 +'" id="extra_'+ id_30 +'" value="0.5" /><span id="ou_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_50 +'"><span id="ouh_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_50 +');">' + data.ouh_o05 + '</span><span id="team_'+ id_50 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_50 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_50 +'" style="display:none;">O</span><span id="span_'+ id_50 +'" class="new" style="display:none;">' + data.ouh_o05 + '</span><span class="rt" id="od_'+ id_50 +'" style="display:none;">' + data.ouh_o05 + '</span><input type="hidden" id="is_selected_'+ id_50 +'" value="0" /><input type="hidden" name="event_id_'+ id_50 +'" id="event_id_'+ id_50 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_50 +'" id="market_id_'+ id_50 +'" value="'+ id_50 +'" /><input type="hidden" name="market_code_'+ id_50 +'" id="market_code_'+ id_50 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_50 +'" id="extra_'+ id_50 +'" value="0.5" /><span id="ouh_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
-				var id_31 = '31'+data.id;
+				var id_51 = '51'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_31 +'"><span id="ou_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_31 +');">' + data.ou_u05 + '</span><span id="team_'+ id_31 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_31 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_31 +'" style="display:none;">U</span><span id="span_'+ id_31 +'" class="new" style="display:none;">' + data.ou_u05 + '</span><span class="rt" id="od_'+ id_31 +'" style="display:none;">' + data.ou_u05 + '</span><input type="hidden" id="is_selected_'+ id_31 +'" value="0" /><input type="hidden" name="event_id_'+ id_31 +'" id="event_id_'+ id_31 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_31 +'" id="market_id_'+ id_31 +'" value="'+ id_31 +'" /><input type="hidden" name="market_code_'+ id_31 +'" id="market_code_'+ id_31 +'" value="OU" /><input type="hidden" name="extra_'+ id_31 +'" id="extra_'+ id_31 +'" value="0.5" /><span id="ou_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_51 +'"><span id="ouh_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_51 +');">' + data.ouh_u05 + '</span><span id="team_'+ id_51 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_51 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_51 +'" style="display:none;">U</span><span id="span_'+ id_51 +'" class="new" style="display:none;">' + data.ouh_u05 + '</span><span class="rt" id="od_'+ id_51 +'" style="display:none;">' + data.ouh_u05 + '</span><input type="hidden" id="is_selected_'+ id_51 +'" value="0" /><input type="hidden" name="event_id_'+ id_51 +'" id="event_id_'+ id_51 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_51 +'" id="market_id_'+ id_51 +'" value="'+ id_51 +'" /><input type="hidden" name="market_code_'+ id_51 +'" id="market_code_'+ id_51 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_51 +'" id="extra_'+ id_51 +'" value="0.5" /><span id="ouh_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
@@ -9473,9 +11860,14 @@
 				
 				
 				
-				
 				//OU_H1 1.5
-				row += '<div class="col"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				var mrk_flag = '';
+				if(data.ouh15_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="ouh15_'+ data.id +'"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9485,19 +11877,19 @@
 				
 				row += '</div>';
 				
-				var id_30 = '30'+data.id;
+				var id_52 = '52'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_30 +'"><span id="ou_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_30 +');">' + data.ou_o05 + '</span><span id="team_'+ id_30 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_30 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_30 +'" style="display:none;">O</span><span id="span_'+ id_30 +'" class="new" style="display:none;">' + data.ou_o05 + '</span><span class="rt" id="od_'+ id_30 +'" style="display:none;">' + data.ou_o05 + '</span><input type="hidden" id="is_selected_'+ id_30 +'" value="0" /><input type="hidden" name="event_id_'+ id_30 +'" id="event_id_'+ id_30 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_30 +'" id="market_id_'+ id_30 +'" value="'+ id_30 +'" /><input type="hidden" name="market_code_'+ id_30 +'" id="market_code_'+ id_30 +'" value="OU" /><input type="hidden" name="extra_'+ id_30 +'" id="extra_'+ id_30 +'" value="0.5" /><span id="ou_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_52 +'"><span id="ouh_o15' + data.id + '" class="rt" onclick="javascript:do_select('+ id_52 +');">' + data.ouh_o15 + '</span><span id="team_'+ id_52 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_52 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_52 +'" style="display:none;">O</span><span id="span_'+ id_52 +'" class="new" style="display:none;">' + data.ouh_o15 + '</span><span class="rt" id="od_'+ id_52 +'" style="display:none;">' + data.ouh_o15 + '</span><input type="hidden" id="is_selected_'+ id_52 +'" value="0" /><input type="hidden" name="event_id_'+ id_52 +'" id="event_id_'+ id_52 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_52 +'" id="market_id_'+ id_52 +'" value="'+ id_52 +'" /><input type="hidden" name="market_code_'+ id_52 +'" id="market_code_'+ id_52 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_52 +'" id="extra_'+ id_52 +'" value="1.5" /><span id="ouh_o15_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
-				var id_31 = '31'+data.id;
+				var id_53 = '53'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_31 +'"><span id="ou_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_31 +');">' + data.ou_u05 + '</span><span id="team_'+ id_31 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_31 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_31 +'" style="display:none;">U</span><span id="span_'+ id_31 +'" class="new" style="display:none;">' + data.ou_u05 + '</span><span class="rt" id="od_'+ id_31 +'" style="display:none;">' + data.ou_u05 + '</span><input type="hidden" id="is_selected_'+ id_31 +'" value="0" /><input type="hidden" name="event_id_'+ id_31 +'" id="event_id_'+ id_31 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_31 +'" id="market_id_'+ id_31 +'" value="'+ id_31 +'" /><input type="hidden" name="market_code_'+ id_31 +'" id="market_code_'+ id_31 +'" value="OU" /><input type="hidden" name="extra_'+ id_31 +'" id="extra_'+ id_31 +'" value="0.5" /><span id="ou_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_53 +'"><span id="ouh_u15' + data.id + '" class="rt" onclick="javascript:do_select('+ id_53 +');">' + data.ouh_u15 + '</span><span id="team_'+ id_53 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_53 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_53 +'" style="display:none;">U</span><span id="span_'+ id_53 +'" class="new" style="display:none;">' + data.ouh_u15 + '</span><span class="rt" id="od_'+ id_53 +'" style="display:none;">' + data.ouh_u15 + '</span><input type="hidden" id="is_selected_'+ id_53 +'" value="0" /><input type="hidden" name="event_id_'+ id_53 +'" id="event_id_'+ id_53 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_53 +'" id="market_id_'+ id_53 +'" value="'+ id_53 +'" /><input type="hidden" name="market_code_'+ id_53 +'" id="market_code_'+ id_53 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_53 +'" id="extra_'+ id_53 +'" value="1.5" /><span id="ouh_u15_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
@@ -9506,9 +11898,14 @@
 				
 				
 				
-				
 				//OU_H1 2.5
-				row += '<div class="col"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				var mrk_flag = '';
+				if(data.ouh25_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="ouh25_'+ data.id +'"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9518,19 +11915,19 @@
 				
 				row += '</div>';
 				
-				var id_30 = '30'+data.id;
+				var id_54 = '54'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_30 +'"><span id="ou_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_30 +');">' + data.ou_o05 + '</span><span id="team_'+ id_30 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_30 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_30 +'" style="display:none;">O</span><span id="span_'+ id_30 +'" class="new" style="display:none;">' + data.ou_o05 + '</span><span class="rt" id="od_'+ id_30 +'" style="display:none;">' + data.ou_o05 + '</span><input type="hidden" id="is_selected_'+ id_30 +'" value="0" /><input type="hidden" name="event_id_'+ id_30 +'" id="event_id_'+ id_30 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_30 +'" id="market_id_'+ id_30 +'" value="'+ id_30 +'" /><input type="hidden" name="market_code_'+ id_30 +'" id="market_code_'+ id_30 +'" value="OU" /><input type="hidden" name="extra_'+ id_30 +'" id="extra_'+ id_30 +'" value="0.5" /><span id="ou_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_54 +'"><span id="ouh_o25' + data.id + '" class="rt" onclick="javascript:do_select('+ id_54 +');">' + data.ouh_o25 + '</span><span id="team_'+ id_54 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_54 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_54 +'" style="display:none;">O</span><span id="span_'+ id_54 +'" class="new" style="display:none;">' + data.ouh_o25 + '</span><span class="rt" id="od_'+ id_54 +'" style="display:none;">' + data.ouh_o25 + '</span><input type="hidden" id="is_selected_'+ id_54 +'" value="0" /><input type="hidden" name="event_id_'+ id_54 +'" id="event_id_'+ id_54 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_54 +'" id="market_id_'+ id_54 +'" value="'+ id_54 +'" /><input type="hidden" name="market_code_'+ id_54 +'" id="market_code_'+ id_54 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_54 +'" id="extra_'+ id_54 +'" value="2.5" /><span id="ouh_o25_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
-				var id_31 = '31'+data.id;
+				var id_55 = '55'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_31 +'"><span id="ou_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_31 +');">' + data.ou_u05 + '</span><span id="team_'+ id_31 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_31 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_31 +'" style="display:none;">U</span><span id="span_'+ id_31 +'" class="new" style="display:none;">' + data.ou_u05 + '</span><span class="rt" id="od_'+ id_31 +'" style="display:none;">' + data.ou_u05 + '</span><input type="hidden" id="is_selected_'+ id_31 +'" value="0" /><input type="hidden" name="event_id_'+ id_31 +'" id="event_id_'+ id_31 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_31 +'" id="market_id_'+ id_31 +'" value="'+ id_31 +'" /><input type="hidden" name="market_code_'+ id_31 +'" id="market_code_'+ id_31 +'" value="OU" /><input type="hidden" name="extra_'+ id_31 +'" id="extra_'+ id_31 +'" value="0.5" /><span id="ou_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_55 +'"><span id="ouh_u25' + data.id + '" class="rt" onclick="javascript:do_select('+ id_55 +');">' + data.ouh_u25 + '</span><span id="team_'+ id_55 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_55 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_55 +'" style="display:none;">U</span><span id="span_'+ id_55 +'" class="new" style="display:none;">' + data.ouh_u25 + '</span><span class="rt" id="od_'+ id_55 +'" style="display:none;">' + data.ouh_u25 + '</span><input type="hidden" id="is_selected_'+ id_55 +'" value="0" /><input type="hidden" name="event_id_'+ id_55 +'" id="event_id_'+ id_55 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_55 +'" id="market_id_'+ id_55 +'" value="'+ id_55 +'" /><input type="hidden" name="market_code_'+ id_55 +'" id="market_code_'+ id_55 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_55 +'" id="extra_'+ id_55 +'" value="2.5" /><span id="ouh_u25_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
@@ -9538,9 +11935,14 @@
 				
 				
 				
-				
 				//OU_H1 3.5
-				row += '<div class="col"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				var mrk_flag = '';
+				if(data.ouh35_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="ouh35_'+ data.id +'"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9550,19 +11952,19 @@
 				
 				row += '</div>';
 				
-				var id_30 = '30'+data.id;
+				var id_56 = '56'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_30 +'"><span id="ou_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_30 +');">' + data.ou_o05 + '</span><span id="team_'+ id_30 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_30 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_30 +'" style="display:none;">O</span><span id="span_'+ id_30 +'" class="new" style="display:none;">' + data.ou_o05 + '</span><span class="rt" id="od_'+ id_30 +'" style="display:none;">' + data.ou_o05 + '</span><input type="hidden" id="is_selected_'+ id_30 +'" value="0" /><input type="hidden" name="event_id_'+ id_30 +'" id="event_id_'+ id_30 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_30 +'" id="market_id_'+ id_30 +'" value="'+ id_30 +'" /><input type="hidden" name="market_code_'+ id_30 +'" id="market_code_'+ id_30 +'" value="OU" /><input type="hidden" name="extra_'+ id_30 +'" id="extra_'+ id_30 +'" value="0.5" /><span id="ou_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_56 +'"><span id="ouh_o35' + data.id + '" class="rt" onclick="javascript:do_select('+ id_56 +');">' + data.ouh_o35 + '</span><span id="team_'+ id_56 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_56 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_56 +'" style="display:none;">O</span><span id="span_'+ id_56 +'" class="new" style="display:none;">' + data.ouh_o35 + '</span><span class="rt" id="od_'+ id_56 +'" style="display:none;">' + data.ouh_o35 + '</span><input type="hidden" id="is_selected_'+ id_56 +'" value="0" /><input type="hidden" name="event_id_'+ id_56 +'" id="event_id_'+ id_56 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_56 +'" id="market_id_'+ id_56 +'" value="'+ id_56 +'" /><input type="hidden" name="market_code_'+ id_56 +'" id="market_code_'+ id_56 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_56 +'" id="extra_'+ id_56 +'" value="3.5" /><span id="ouh_o35_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
-				var id_31 = '31'+data.id;
+				var id_57 = '57'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_31 +'"><span id="ou_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_31 +');">' + data.ou_u05 + '</span><span id="team_'+ id_31 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_31 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_31 +'" style="display:none;">U</span><span id="span_'+ id_31 +'" class="new" style="display:none;">' + data.ou_u05 + '</span><span class="rt" id="od_'+ id_31 +'" style="display:none;">' + data.ou_u05 + '</span><input type="hidden" id="is_selected_'+ id_31 +'" value="0" /><input type="hidden" name="event_id_'+ id_31 +'" id="event_id_'+ id_31 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_31 +'" id="market_id_'+ id_31 +'" value="'+ id_31 +'" /><input type="hidden" name="market_code_'+ id_31 +'" id="market_code_'+ id_31 +'" value="OU" /><input type="hidden" name="extra_'+ id_31 +'" id="extra_'+ id_31 +'" value="0.5" /><span id="ou_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_57 +'"><span id="ouh_u35' + data.id + '" class="rt" onclick="javascript:do_select('+ id_57 +');">' + data.ouh_u35 + '</span><span id="team_'+ id_57 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_57 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_57 +'" style="display:none;">U</span><span id="span_'+ id_57 +'" class="new" style="display:none;">' + data.ouh_u35 + '</span><span class="rt" id="od_'+ id_57 +'" style="display:none;">' + data.ouh_u35 + '</span><input type="hidden" id="is_selected_'+ id_57 +'" value="0" /><input type="hidden" name="event_id_'+ id_57 +'" id="event_id_'+ id_57 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_57 +'" id="market_id_'+ id_57 +'" value="'+ id_57 +'" /><input type="hidden" name="market_code_'+ id_57 +'" id="market_code_'+ id_57 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_57 +'" id="extra_'+ id_57 +'" value="3.5" /><span id="ouh_u35_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
@@ -9570,9 +11972,14 @@
 				
 				
 				
-								
 				//OU_H1 4.5
-				row += '<div class="col"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
+				var mrk_flag = '';
+				if(data.ouh45_flag=='1'){
+					mrk_flag = 'block';
+				}else{
+					mrk_flag = 'none';
+				}
+				row += '<div class="col" style="display:'+ mrk_flag +'" id="ouh45_'+ data.id +'"><div class="m_title Light13 Bold White">Over/Under (1st Half)</div><div class="rest_title2"><div class="Inner_cnt_hd rw"><div class="tl_rw Light12 White Bold Align_cent"><div class="sm_cl">G</div><div class="sm_cl"><img src="images/ic_17.png" class="arw_t_ic" alt="img"></div><div class="sm_cl"><img src="images/ic_18.png" class="arw_t_ic" alt="img"></div></div></div><div class="tl_rw Light12 White Bold">';
 				
 				
 				
@@ -9582,19 +11989,19 @@
 				
 				row += '</div>';
 				
-				var id_30 = '30'+data.id;
+				var id_58 = '58'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_30 +'"><span id="ou_o05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_30 +');">' + data.ou_o05 + '</span><span id="team_'+ id_30 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_30 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_30 +'" style="display:none;">O</span><span id="span_'+ id_30 +'" class="new" style="display:none;">' + data.ou_o05 + '</span><span class="rt" id="od_'+ id_30 +'" style="display:none;">' + data.ou_o05 + '</span><input type="hidden" id="is_selected_'+ id_30 +'" value="0" /><input type="hidden" name="event_id_'+ id_30 +'" id="event_id_'+ id_30 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_30 +'" id="market_id_'+ id_30 +'" value="'+ id_30 +'" /><input type="hidden" name="market_code_'+ id_30 +'" id="market_code_'+ id_30 +'" value="OU" /><input type="hidden" name="extra_'+ id_30 +'" id="extra_'+ id_30 +'" value="0.5" /><span id="ou_o05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_58 +'"><span id="ouh_o45' + data.id + '" class="rt" onclick="javascript:do_select('+ id_58 +');">' + data.ouh_o45 + '</span><span id="team_'+ id_58 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_58 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_58 +'" style="display:none;">O</span><span id="span_'+ id_58 +'" class="new" style="display:none;">' + data.ouh_o45 + '</span><span class="rt" id="od_'+ id_58 +'" style="display:none;">' + data.ouh_o45 + '</span><input type="hidden" id="is_selected_'+ id_58 +'" value="0" /><input type="hidden" name="event_id_'+ id_58 +'" id="event_id_'+ id_58 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_58 +'" id="market_id_'+ id_58 +'" value="'+ id_58 +'" /><input type="hidden" name="market_code_'+ id_58 +'" id="market_code_'+ id_58 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_58 +'" id="extra_'+ id_58 +'" value="4.5" /><span id="ouh_o45_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
-				var id_31 = '31'+data.id;
+				var id_59 = '59'+data.id;
 				
 				row += '<div class="sm_cl">';
 				
-				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_31 +'"><span id="ou_u05' + data.id + '" class="rt" onclick="javascript:do_select('+ id_31 +');">' + data.ou_u05 + '</span><span id="team_'+ id_31 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_31 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_31 +'" style="display:none;">U</span><span id="span_'+ id_31 +'" class="new" style="display:none;">' + data.ou_u05 + '</span><span class="rt" id="od_'+ id_31 +'" style="display:none;">' + data.ou_u05 + '</span><input type="hidden" id="is_selected_'+ id_31 +'" value="0" /><input type="hidden" name="event_id_'+ id_31 +'" id="event_id_'+ id_31 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_31 +'" id="market_id_'+ id_31 +'" value="'+ id_31 +'" /><input type="hidden" name="market_code_'+ id_31 +'" id="market_code_'+ id_31 +'" value="OU" /><input type="hidden" name="extra_'+ id_31 +'" id="extra_'+ id_31 +'" value="0.5" /><span id="ou_u05_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
+				row += '<div class="rt_tab linght36 "><a class="btn_min" href="javascript:void(0);" id="div_'+ id_59 +'"><span id="ouh_u45' + data.id + '" class="rt" onclick="javascript:do_select('+ id_59 +');">' + data.ouh_u45 + '</span><span id="team_'+ id_59 +'" style="display:none;">' + data.t1 + '  v  ' + data.t2 + '</span><span id="text_'+ id_59 +'" style="display:none;">' + data.inf + '</span><span id="tip_'+ id_59 +'" style="display:none;">U</span><span id="span_'+ id_59 +'" class="new" style="display:none;">' + data.ouh_u45 + '</span><span class="rt" id="od_'+ id_59 +'" style="display:none;">' + data.ouh_u45 + '</span><input type="hidden" id="is_selected_'+ id_59 +'" value="0" /><input type="hidden" name="event_id_'+ id_59 +'" id="event_id_'+ id_59 +'" value="' + data.id + '" /><input type="hidden" name="market_id_'+ id_59 +'" id="market_id_'+ id_59 +'" value="'+ id_59 +'" /><input type="hidden" name="market_code_'+ id_59 +'" id="market_code_'+ id_59 +'" value="OU_H1" /><input type="hidden" name="extra_'+ id_59 +'" id="extra_'+ id_59 +'" value="4.5" /><span id="ouh_u45_L' + data.id + '" class="lck" style="display:none;"><img src="images/lock.png" alt="img"></span></a></div>';
 				
 				row += '</div>';
 				
@@ -10110,7 +12517,7 @@
 	<!--<script>
 		setInterval(function() {
 		
-			console.log('RRRRRR');
+			//console.log('RRRRRR');
 			idle_full();
 			
         }, 900000);	
