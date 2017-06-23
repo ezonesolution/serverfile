@@ -19,6 +19,7 @@ var PORT = 4661;
 
 var client = null;
 var ssClient = null;
+var usClient = null;
 var eventsStr = null;
 var updateSentAt = new Date();
 
@@ -69,6 +70,7 @@ function startFeed() {
     if (ssClient) {
         ssClient.destroy();
     }
+	
 
     client = new net.Socket();
     client.connect(PORT, HOST, function() {
@@ -123,7 +125,7 @@ function startFeed() {
                                     eventsStr = eventsStr + ',' + eventsArr[i].id;
                                 }
 								
-								if(i==30){
+								if(i==20){
 									break;
 								}
                             }
@@ -274,6 +276,20 @@ function startFeed() {
                                 });//SSCLient on data
                             });// SSClient connect
                         }//if events > 0
+						
+						usClient = new net.Socket();
+						usClient.connect(PORT, HOST, function() {
+							//var cmdLengthBuf = new Buffer(4);
+							const cmdLengthBuf = Buffer.allocUnsafe(4);
+							var usCommand = '{C:\"US\",bmId:7,inst:\"asaturoglu\",tok:\"114780425008\",eId:\"'
+								+eventsStr+'\"}';
+							cmdLengthBuf.writeUInt32BE(usCommand.length, 0);
+							usClient.write(cmdLengthBuf);
+							usClient.write(usCommand);
+							console.log('US -> '+eventsStr);
+						});	
+						
+						
                         client.destroy();
                     }//else dt = 0
                 }//if
