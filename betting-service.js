@@ -277,17 +277,17 @@ function startFeed() {
                             });// SSClient connect
                         }//if events > 0
 						
-						usClient = new net.Socket();
-						usClient.connect(PORT, HOST, function() {
+						//usClient = new net.Socket();
+						//ssClient.connect(PORT, HOST, function() {
 							//var cmdLengthBuf = new Buffer(4);
 							const cmdLengthBuf = Buffer.allocUnsafe(4);
 							var usCommand = '{C:\"US\",bmId:7,inst:\"asaturoglu\",tok:\"114780425008\",eId:\"'
 								+eventsStr+'\"}';
 							cmdLengthBuf.writeUInt32BE(usCommand.length, 0);
-							usClient.write(cmdLengthBuf);
-							usClient.write(usCommand);
+							ssClient.write(cmdLengthBuf);
+							ssClient.write(usCommand);
 							console.log('US -> '+eventsStr);
-						});	
+						//});	
 						
 						
                         client.destroy();
